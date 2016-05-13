@@ -1,0 +1,36 @@
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+.top-navigation {
+	width: 100%;
+    background-color: #fff;
+	position: fixed;
+	border-bottom: 1px solid #DDD;
+	float: right;
+	height: 4.375rem;
+	font-size: 1.04rem;
+	vertical-align: baseline;
+	text-align: center;
+}
+
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+ul, ol {
+	list-style: none;
+	display: block;
+}
+
+li {
+	display: inline-block;
+	margin-right: 2em;
+}
+
+
