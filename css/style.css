@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     background-color: LightGray;
     font-family: 'Roboto', sans-serif;
@@ -8,6 +15,16 @@ div {
     border: 1px solid Chocolate;
 }
 
+.content {
+    width: 855px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+}
+
 .top-navigation {
     background-color: #fff;
 	border-bottom: 1px solid #DDD;
@@ -15,15 +32,9 @@ div {
 	text-align: center;
 }
 
-.top-navigation > .content {
-    width: 855px;
-    height: 70px;
-    margin: 0 auto;
-    padding: 0px 15px;
-    box-sizing: border-box;
-    font-size: 16px;
-	color: #838994;
-	letter-spacing: 0.03em;
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
 }
 
 ul.links {
@@ -31,22 +42,18 @@ ul.links {
 	margin-top: 1.5em;
 }
 
-.logo {
-	float: left;
-	margin-top: .8em;
-}
-
 li {
 	display: inline-block;
 	margin-left: 1em;
 }
 
-.top-navigation .links > .active {
-    color: #4c5058;
-    font-weight: 500;
-}
 
 li:hover {
 	color: #4c5058;
 	cursor: pointer;
+}
+
+.logo {
+	float: left;
+	margin-top: .8em;
 }
