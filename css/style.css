@@ -44,13 +44,12 @@ ul.links {
 	margin-top: 1.5em;
 }
 
-li {
+.top-navigation li {
 	display: inline-block;
 	margin-left: 1.4em;
 }
 
-
-li:hover {
+.top-navigation li:hover {
 	color: #4c5058;
 	cursor: pointer;
 }
@@ -75,9 +74,10 @@ li:hover {
 	text-align: center;
 }
 
+
 .introduction h1 {
-	font-size: 3.125rem;
 	margin-top: 12.5rem;
+	font-size: 3.125rem;
 	font-weight: 300;
 }
 
@@ -99,4 +99,38 @@ button {
 
 button:hover {
 	 background-color: #d9400e;
+}
+
+.description .content {
+	text-align: center;
+	margin: 7.5em auto;
+	color: #1d1e21;
+}
+
+.description h2 {
+	font-size: 2.75rem;
+	font-weight: 300;
+	margin: 1.625rem 0 3.125rem;
+	display: block;
+}
+
+.description .devices ul {
+	margin: 0 auto;
+}
+
+.description .devices li {
+	list-style: none;
+	float: left;
+	width: 33.33%;
+}
+
+.description h3 {
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin: 2.5rem 0px 1.875rem;
+}
+
+.description img {
+	width: 127px;
+	height: 127px;
 }
