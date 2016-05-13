@@ -1,36 +1,52 @@
 body {
     background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
 }
 div {
     border: 1px solid Chocolate;
 }
 
 .top-navigation {
-	width: 100%;
     background-color: #fff;
-	position: fixed;
 	border-bottom: 1px solid #DDD;
-	float: right;
 	height: 4.375rem;
-	font-size: 1.04rem;
-	vertical-align: baseline;
 	text-align: center;
 }
 
 .top-navigation > .content {
-    width: 970px;
+    width: 855px;
     height: 70px;
     margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
 }
 
-ul, ol {
-	list-style: none;
-	display: block;
+ul.links {
+	float: right;
+	margin-top: 1.5em;
+}
+
+.logo {
+	float: left;
+	margin-top: .8em;
 }
 
 li {
 	display: inline-block;
-	margin-right: 2em;
+	margin-left: 1em;
 }
 
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
 
+li:hover {
+	color: #4c5058;
+	cursor: pointer;
+}
