@@ -1,3 +1,4 @@
+/* document */
 html {
   box-sizing: border-box;
 }
@@ -6,13 +7,9 @@ html {
 }
 
 body {
-    /* background-color: LightGray; */
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
-}
-div {
-    /* border: 1px solid Chocolate; */
 }
 
 .content {
@@ -24,10 +21,8 @@ div {
 	letter-spacing: 0.03em;
 }
 
-.top-navigation .content {
-	height: 70px;
-}
 
+/* navigation */
 .top-navigation {
     background-color: #fff;
 	border-bottom: 1px solid #DDD;
@@ -35,11 +30,7 @@ div {
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
-}
-
-.top-navigation .links .active {
-    color: #4c5058;
-    font-weight: 500;
+	height: 70px;
 }
 
 ul.links {
@@ -57,11 +48,18 @@ ul.links {
 	cursor: pointer;
 }
 
+.top-navigation .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
 .logo {
 	float: left;
 	margin-top: .93em;
 }
 
+
+/* introduction */
 .introduction {
 	background-image: url("../images/first-background.jpg");
 	background-position: center bottom;
@@ -76,7 +74,6 @@ ul.links {
 	color: white;
 	text-align: center;
 }
-
 
 .introduction h1 {
 	margin-top: 15.5rem;
@@ -104,10 +101,12 @@ button:hover {
 	 background-color: #d9400e;
 }
 
+
+/* description */
 .description .content {
 	color: #1d1e21;
 	text-align: center;
-	margin-bottom: 6.3rem;
+	margin-bottom: 7.5rem;
 }
 
 .description h2 {
@@ -133,15 +132,23 @@ button:hover {
 	margin-bottom: 1em;
 }
 
+
+/* footer */
 .social {
 	text-align: center;
-	color: #1d1e21;
-	font-weight: 500;
-	font-size: .95em;
+}
+
+hr {
+	border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
 }
 
 .social h5 {
 	margin-bottom: 0;
+	color: #1d1e21;
+	font-weight: 400;
+	font-size: .95em;
 }
 
 .fa {
@@ -151,6 +158,26 @@ button:hover {
 	width: 2.5rem;
     height: 2.5rem;
     margin: 1.25rem 5px;
-    padding: 0.625rem 0;
+    padding: 0.7rem 0;
     text-align: center;
+}
+
+.fa-twitter {
+	color: #55acee;
+}
+
+.fa-instagram {
+	color: #3f729b;
+}
+
+.fa-facebook {
+	color: #4c66a4;
+}
+
+.social h6 {
+	margin-top: 0;
+	color: #1d1e21;
+	font-weight: 300;
+	font-size: .85em;
+	margin-bottom: 8em;
 }
