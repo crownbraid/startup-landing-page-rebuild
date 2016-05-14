@@ -107,6 +107,7 @@ button:hover {
 .description .content {
 	color: #1d1e21;
 	text-align: center;
+	margin-bottom: 6.3rem;
 }
 
 .description h2 {
@@ -130,4 +131,26 @@ button:hover {
 	width: 127px;
 	height: 127px;
 	margin-bottom: 1em;
+}
+
+.social {
+	text-align: center;
+	color: #1d1e21;
+	font-weight: 500;
+	font-size: .95em;
+}
+
+.social h5 {
+	margin-bottom: 0;
+}
+
+.fa {
+	display: inline-block;
+	border: 1px solid #eaebec;
+	border-radius: 1.25rem;
+	width: 2.5rem;
+    height: 2.5rem;
+    margin: 1.25rem 5px;
+    padding: 0.625rem 0;
+    text-align: center;
 }
