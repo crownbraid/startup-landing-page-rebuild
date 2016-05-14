@@ -32,6 +32,9 @@ div {
     background-color: #fff;
 	border-bottom: 1px solid #DDD;
 	text-align: center;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation .links .active {
@@ -41,7 +44,7 @@ div {
 
 ul.links {
 	float: right;
-	margin-top: 1.5em;
+	margin-top: 1.55em;
 }
 
 .top-navigation li {
@@ -56,7 +59,7 @@ ul.links {
 
 .logo {
 	float: left;
-	margin-top: .8em;
+	margin-top: .93em;
 }
 
 .introduction {
@@ -64,7 +67,7 @@ ul.links {
 	background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 39rem;
+    height: 40rem;
     background-position: 0 bottom;
     overflow: auto;
 }
@@ -76,7 +79,7 @@ ul.links {
 
 
 .introduction h1 {
-	margin-top: 12.5rem;
+	margin-top: 15.5rem;
 	font-size: 3.125rem;
 	font-weight: 300;
 }
@@ -102,35 +105,29 @@ button:hover {
 }
 
 .description .content {
-	text-align: center;
-	margin: 7.5em auto;
 	color: #1d1e21;
+	text-align: center;
 }
 
 .description h2 {
 	font-size: 2.75rem;
 	font-weight: 300;
-	margin: 1.625rem 0 3.125rem;
-	display: block;
+	margin: 6.3rem 0 3.125rem;
 }
 
-.description .devices ul {
-	margin: 0 auto;
-}
-
-.description .devices li {
-	list-style: none;
-	float: left;
+.description .devices {
 	width: 33.33%;
+	display: inline-block;
+	height: 5em;
 }
 
 .description h3 {
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	font-weight: 400;
-	margin: 2.5rem 0px 1.875rem;
 }
 
 .description img {
 	width: 127px;
 	height: 127px;
+	margin-bottom: 1em;
 }
